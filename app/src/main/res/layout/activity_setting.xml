@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:elevation="20dp"
+    tools:context=".Setting">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/fizkes191003250" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="-1dp"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="608dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45.5dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="45.5dp"
+        android:background="@drawable/arrondir"
+        android:elevation="20dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="0dp"
+            android:text="Statut"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="98dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/arrondir1"
+            android:text="Modifier"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="37dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/path_1" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="37dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/imageView8"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/path_104" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView9"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/union_1" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/imageView10"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/path_146" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="105dp"
+            android:layout_toEndOf="@+id/imageView8"
+            android:text="Notifications"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/imageView9"
+            android:text="General"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/imageView10"
+            android:text="Mon compte"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/imageView11"
+            android:text="A propos"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

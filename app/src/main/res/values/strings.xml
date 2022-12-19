@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SMART_CHEKING</string>
+    <string name="slogan_app">Snap-Clic-Enregistré !</string>
+    <string name="je_me_connect">Je me connecte</string>
+    <string name="email_num_tel">Nom d\'utilisateur,Email ou Téléphone</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="login">Se Connecter</string>
+    <string name="Term_et_politique">En vous connectant vous acceptez les termes et politiques de vie privée</string>
+    <string name="search">Rechercher un nom, numéro d\'ID, etc...</string>
+    <string name="nom_app">Smart Checking</string>
+    <string name="textview">TextView</string>
+    <string name="username">Username</string>
+    <string-array name="Sexe">
+        <item>S</item>
+        <item>F</item>
+    </string-array>
+</resources>

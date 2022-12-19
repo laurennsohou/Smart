@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".About_us">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="222dp"
+        android:layout_height="189dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="150dp"
+        app:srcCompat="@drawable/neg_logo_smart_cheking" />
+
+    <FrameLayout
+        android:layout_width="411dp"
+        android:layout_height="281dp"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="1dp">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginStart="-15dp"
+            android:text="Smart Checking"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="374dp"
+            android:layout_height="205dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="C'est une application éditée par le Groupe CERCO  Côte d'Ivoire, permettant de scanner les pièces  d'identité (CNI, Passeport, Permis de conduire et  Cartes d'étudiants) afin de mieux enregistrer les  visiteurs et membres d'une organisation, mettant  ainsi fin aux registres papiers et la charge pénible  qui l'accompagne."
+            android:textColor="#E2FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</RelativeLayout>

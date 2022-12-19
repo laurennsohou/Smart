@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="850dp"
+        android:background="@color/green"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/logo_smart_checking"
+            android:layout_width="229dp"
+            android:layout_height="203dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/neg_logo_smart_cheking"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/nomApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/nom_app"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/slogan_app"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+        <FrameLayout
+            android:layout_width="327dp"
+            android:layout_height="259dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/arrondir">
+
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="162dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/je_me_connect"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/email_num_tel"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textSize="14sp"
+                tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/mot_de_passe"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey"
+                android:textSize="14sp"
+                tools:ignore="InvalidId,RtlSymmetry,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button_connected"
+                android:layout_width="290dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="190dp"
+                android:backgroundTint="@color/green"
+                android:elevation="200dp"
+                android:text="@string/login"
+                tools:ignore="TextContrastCheck" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="221dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Term_et_politique"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
